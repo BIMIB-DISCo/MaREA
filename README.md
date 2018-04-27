@@ -1,2 +1,2 @@
 # MaREA
-![Alt text](https://github.com/BIMIB-DISCo/MaREA/edit/master/Images/prepareData.png?raw=true "Title")
+![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/prepareData.png?raw=true "Title")
