@@ -1,5 +1,5 @@
 function [tableOut] = calcFCpVonCluster(structCluster, varargin)
-% Compute pValue with many parametric or not parametric test and the Fold Change 
+% Compute pValue with many parametric or not parametric tests and the Fold Change 
 % of the mean of the transcript between the samples in the two or more
 % cluster.
 % If there is more than two cluster the comparison on each reactions could be performed
