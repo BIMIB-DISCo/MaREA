@@ -2,7 +2,7 @@
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/dataset_loaded.png?raw=true "Title")
 
-#Process Dataset
+# Process Dataset
 Specify type of ID for genes and name of column for IDs and first patients
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/addDataset.png?raw=true "Title")
 
