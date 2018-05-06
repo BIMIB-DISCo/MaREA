@@ -3,34 +3,37 @@ To run this MATLAB tool simply add the <*MaREA-master*> directory in your Matlab
 
 # Load Dataset (browsing the file system)
 
-![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/dataset_loaded.png?raw=true "Title")
-
-Use **Select dataset** to browse your files and select a dataset in csv or tsv format. This file have to contain one column with gene ID write in one of the following format:
+Use **Select dataset** (tab Dataset) to browse your files and select a dataset in csv or tsv format. This file must contain one column with the genes ID in one of the following formats:
 - Hugo Symbol (*IDH1*)
 - Hugo ID (*HGNC:5382*)
 - Ensemble ID (*ENSG00000138413*)
 - Entrez ID (*3417*)
 
-This column have to be specified with the **Gene IDs col** drop-down listist.
+When the dataset is correctly loaded the message "dataset loaded" appears (see screenshot below).
 
-**Gene Identifier** allow to specify which kind of gene identifier is used in the dataset.
-
-The **First patient col** drop-down list is used to specify the first patient (or sample) in the dataset. Following columns will be considered others patients as well till the end of file.
+![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/dataset_loaded.png?raw=true "Title")
 
 
 # Process Dataset
-Specify type of ID for genes and name of column for IDs and first patients
-![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/addDataset.png?raw=true "Title")
+Once the dataset is loaded, the user must specify the name of the column reporting the genes ID from the **Gene IDs col** drop-down listist.
+
+**Gene Identifier** allows to specify which kind of gene identifier is used in the dataset.
+
+The **First patient col** drop-down list is used to specify the first patient (or sample) in the dataset. Following columns till the end of file will be considered as patients/samples.
+
 
 Push **Add dataset** to import the selected dataset in the app.
+A Summary of  imported datasets will be created and displayed in the *Datasets* text box (see screehsnot below).
 
-Little summary of dataset imported is created during the process and is displayed in *Datasets* text box.
+![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/addDataset.png?raw=true "Title")
+
 
 # Load and Process second (optional) dataset
 
+By repeating the process above any number of datasets can be imported.
+
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/second_dataset.png?raw=true "Title")
 
-With this process any number of datasets could be imported.
 
 # Load Model
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/metabolicModel.png?raw=true "Title")
