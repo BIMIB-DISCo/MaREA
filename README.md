@@ -77,13 +77,13 @@ Slide the botton **Advanced Option** to display more options (see screenshot bel
 # Compare datasets
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/compareDatasets.png?raw=true "Title")
 
-**Export Data** button allows to save the dataset with previously performed computation in a *.mat* file. (Select at least one entry from **Datasets with RAS** list box.
+**Export Data** button allows to save the dataset with previously performed computation in a *.mat* file. Select at least one entry from the **Datasets with RAS** list box.
 
 
 ***Enrichment* section
-First of all select at least two entries from *Dataset with RAS* list box.
+First of all select at least two entries from the *Dataset with RAS* list box.
 
-Select options from drop-down list
+Choose the following options from drop-down list:
  - **Mode**
 	- *Pairwise*: each dataset will be compared again each other.
 	- *One vs other*: each dataset will compared again mean values of other datasets.
