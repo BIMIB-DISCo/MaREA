@@ -1,3 +1,6 @@
+# Requirements	
+MaREA requires MATLAB and the COBRA Toolbox.
+
 # Run MaREA
 To run this MATLAB tool simply add the <*MaREA-master*> directory in your Matlab path and digit MaREA in MATLAB Command Window.
 
