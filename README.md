@@ -55,7 +55,8 @@ Once the model is loaded, a summary of the metabolic model will appear in **Mode
 
 Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reaction in the metabolic model and for each patient or sample in the dataset. 
 
-**Advanced Option** 
+Slide the botton **Advanced Option** to display more options (see screenshot below).
+
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/prepareData.png?raw=true "Title")
 
  - Turn **Parallele mode** on to enable faster computation, provided that Parallele Toolbox is installed.
