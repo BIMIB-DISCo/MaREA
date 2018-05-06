@@ -57,7 +57,7 @@ Once the model is loaded, a summary of the metabolic model loaded will appear in
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/RASready.png?raw=true "Title")
 
 
-Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reactions in the metabolic model and for each patient or sample in the dataset. 
+Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reaction in the metabolic model and for each patient or sample in the dataset. 
 
 **Advanced Option** 
  - Turn **Parallele mode** on to enable faster computation, provided that Parallele Toolbox is installed.
@@ -70,7 +70,7 @@ Select at least one entry from *Dataset* list box and MaREA will compute the RAS
  - **Convert log scaled to decimal values**
 	If *yes* is selected MaREA will consider dataset values (t) log2 scaled so before perform analysis 2^t will apply.
 
- - **Threshold 0 transcript**
+ - **Threshold 0 transcript** (feature still to be implemented)
 	Define a threshold: each value below it will be replaced by 0
 
 
@@ -81,18 +81,18 @@ Select at least one entry from *Dataset* list box and MaREA will compute the RAS
 
 
 ***Enrichment* section
-First of all select at least two entry from *Dataset with RAS* list box.
+First of all select at least two entries from *Dataset with RAS* list box.
 
 Select options from drop-down list
  - **Mode**
-	- *Pairwise*: each dataset will compared again each other.
-	- *One vs other*: each dataset will compared again mean values of others datasets.
+	- *Pairwise*: each dataset will be compared again each other.
+	- *One vs other*: each dataset will compared again mean values of other datasets.
 
- - **Hypotesis test** chose one test to compute p-value for difference between transcript distributions. Test available are: *Kolmogorov-Smirnov*, *Kruskal-Wallis*, *t-student*, *One way anova* or *Do not compute* for skip this analysis.
+ - **Hypotesis test** choose one test to compute p-value for the difference between transcript distributions. Test available are: *Kolmogorov-Smirnov*, *Kruskal-Wallis*, *t-student*, *One way anova* or *Do not compute* for skip this analysis.
  
- - **Fold Change** chose if or not to compute the ratio of each reaction value between dataset.
+ - **Fold Change** choose wether to compute the ratio of each reaction value between datasets.
  
- Use **Compare dataset** to create .txt file with the statistical analysis output.
+ Use **Compare dataset** to create a .txt file with the statistical analysis output.
 	
 # Color map
 
@@ -101,7 +101,7 @@ Select options from drop-down list
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/mapDownloaded.png?raw=true "Title")
 
-If HMRcore was chosen as metabolic model MaREA allows to color a metabolic map to better visualize enrichment results. 
+Provided that HMRcore was chosen as metabolic model, MaREA allows to color a metabolic map to better visualize enrichment results. 
 
 Chose a *pV - Thr*: reactions with pValue under this threshold will draw with gray dashed line. If no test was used skip this point.
 
@@ -112,16 +112,16 @@ Chose a *FC - Thr*: reactions with Fold Change under this threshold will gray co
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/getClusters.png?raw=true "Title")
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/clustersDownloaded.png?raw=true "Title")
 
-MaREA allows to stratify dataset(s) with K means cluster method.
+MaREA allows to stratify dataset(s) with K-means cluster method.
 
-Use **Number of clusters** to chose a range of K values. Each value correspond to a  number of groups dataset will be divide. So chose a range from 2 to 5 will divide same dataset in 2,3,4 and 5 groups. 
+Use **Number of clusters** to chose a range of K values. Each value corresponds to a number of clustes in which the dataset will be split. Chosing a range from 2 to 5 will divide the same dataset in 2,3,4 and 5 groups. 
 
 Use **scale variables** to normalize dataset values.
  - *divide row by max*: divide each row by their maximum values.
  - *divide col by max*: divide each col by their maximum values.
  - *none*: do nothing
  
-Use **Data** to chose if stratify dataset based on metabolic transcript or RAS score
+Use **Data** to chose whether stratify the dataset based on metabolic transcript or on RAS.
 
 **Number of replicates**: perform analysis many times and return the best clusterization.
 
