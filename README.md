@@ -1,3 +1,6 @@
+# Run MaREA
+To run this tool simply add the directory <*MaREA-master*> in your Matlab path and digit MaREA in terminal.
+
 # Load Dataset (browsing the file system)
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/dataset_loaded.png?raw=true "Title")
