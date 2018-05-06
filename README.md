@@ -28,7 +28,7 @@ A Summary of  imported datasets will be created and displayed in the *Datasets* 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/addDataset.png?raw=true "Title")
 
 
-# Load and Process second (optional) dataset
+# Load and Process a second (optional) dataset
 
 By repeating the process above any number of datasets can be imported.
 
@@ -38,10 +38,10 @@ By repeating the process above any number of datasets can be imported.
 # Load Model
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/metabolicModel.png?raw=true "Title")
 
-A metabolic model *COBRA toolbox* compliant have to be chosen to perform the further analysis. MaREA already provides *Recon 2.2* a genome wide model (ref) and *HMRcore* a core model manually curated by our research group. 
-With *Custom* another model can be used, but user have to specify in which format model.genes are written. (This Gene ID can be the same of the dataset or different, in the latter case MaREA automatically convert model genes ID in dataset ID.
+A metabolic model *COBRA toolbox* compliant must be chosen to perform further analyses. MaREA already provides the *Recon 2.2*  genome wide model and the *HMRcore* core model (manually curated by our group). 
+By slecting *Custom* a different model can be improrted. In this case, the user must specify which identificative for genes the model vector model.genes uses. (This Gene ID can be the same of the dataset or a different one, in the latter case MaREA automatically converts model genes IDs in dataset IDs.
 
-In **Model** text box a summary of the metabolic model chosen will appear. 
+Once the model is loaded, once a text box a summary of the metabolic model chosen will appear in **Model**. 
 
 # Compute RAS
 
@@ -54,12 +54,11 @@ In **Model** text box a summary of the metabolic model chosen will appear.
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/RASready.png?raw=true "Title")
 
 
-Select at least one entry from *Dataset* list box and MaREA will compute RAS (reaction activity score) for each reactions in metabolic model and for each patient or sample in dataset. 
+Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reactions in the metabolic model and for each patient or sample in the dataset. 
 
 **Advanced Option** 
- - Turn on **Parallele mode** will enable faster computation if Parallele Toolbox is installed.
+ - Turn **Parallele mode** on to enable faster computation, provided that Parallele Toolbox is installed.
  
- *Following option are not available yet*
  - **Resolve (A and *nan*) rules**: Rules could consider two genes in *and*, one of them don't have information about it's transcript level (*nan* value).
 	- with *A* selected MaREA will not consider *nan* gene so the corresponding result will be just transcript level of gene **A**
 	- with *nan* selected the result of the rule will be *nan*
@@ -69,13 +68,13 @@ Select at least one entry from *Dataset* list box and MaREA will compute RAS (re
 	If *yes* is selected MaREA will consider dataset values (t) log2 scaled so before perform analysis 2^t will apply.
 
  - **Threshold 0 transcript**
-	Define a threshold: each value below it will replaced by 0
+	Define a threshold: each value below it will be replaced by 0
 
 
 # Compare datasets
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/compareDatasets.png?raw=true "Title")
 
-**Export Data** button allow to save dataset with previously performed computation in a *.mat* file. (Select at least one entry from **Datasets with RAS** list box.
+**Export Data** button allows to save the dataset with previously performed computation in a *.mat* file. (Select at least one entry from **Datasets with RAS** list box.
 
 
 ***Enrichment* section
