@@ -114,7 +114,7 @@ Chose a *FC - Thr*: reactions with Fold Change under this threshold will gray co
 
 MaREA allows to stratify dataset(s) with K-means cluster method.
 
-Use **Number of clusters** to chose a range of K values. Each value corresponds to a number of clustes in which the dataset will be split. Chosing a range from 2 to 5 will divide the same dataset in 2,3,4 and 5 groups. 
+Use **Number of clusters** to choose a range of K values. Each value corresponds to a number of clustes in which the dataset will be split. Chosing a range from 2 to 5 will divide the same dataset in 2,3,4 and 5 groups. 
 
 Use **scale variables** to normalize dataset values.
  - *divide row by max*: divide each row by their maximum values.
