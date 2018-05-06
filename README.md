@@ -50,16 +50,14 @@ Once the model is loaded, a summary of the metabolic model will appear in **Mode
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/computeRAS.png?raw=true "Title")
 
-
-![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/advancedOptions.png?raw=true "Title")
-
-
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/RASready.png?raw=true "Title")
 
 
 Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reaction in the metabolic model and for each patient or sample in the dataset. 
 
 **Advanced Option** 
+![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/prepareData.png?raw=true "Title")
+
  - Turn **Parallele mode** on to enable faster computation, provided that Parallele Toolbox is installed.
  
  - **Resolve (A and *nan*) rules**: Rules could consider two genes in *and*, one of them don't have information about it's transcript level (*nan* value).
