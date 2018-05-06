@@ -12,7 +12,7 @@ Use **Select dataset** (tab Dataset) to browse your files and select a dataset i
 - Ensemble ID (*ENSG00000138413*)
 - Entrez ID (*3417*)
 
-When the dataset is correctly loaded the message "dataset loaded" appears (see screenshot below).
+Once the dataset is correctly loaded the message "dataset loaded" appears (see screenshot below).
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/dataset_loaded.png?raw=true "Title")
 
