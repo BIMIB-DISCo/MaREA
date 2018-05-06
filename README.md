@@ -47,13 +47,14 @@ By selecting *Custom*, a different model can be imported. In this case, the user
 Once the model is loaded, a summary of the metabolic model will appear in **Model**. 
 
 # Compute RAS
+Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reaction in the metabolic model and for each patient or sample in the dataset. 
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/computeRAS.png?raw=true "Title")
 
+Wait until RASs are computed.
+
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/RASready.png?raw=true "Title")
 
-
-Select at least one entry from *Dataset* list box and MaREA will compute the RAS (Reaction Activity Score) for each reaction in the metabolic model and for each patient or sample in the dataset. 
 
 Slide the botton **Advanced Option** to display more options (see screenshot below).
 
