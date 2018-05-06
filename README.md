@@ -41,7 +41,7 @@ By repeating the process above any number of datasets can be imported.
 # Load Model
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/metabolicModel.png?raw=true "Title")
 
-A metabolic model *COBRA toolbox* compliant must be chosen to perform further analyses. MaREA already provides the *Recon 2.2*  genome wide model and the *HMRcore* core model (manually curated by our group). 
+A ( *COBRA toolbox* compliant) metabolic model must be chosen to perform further analyses. MaREA already provides the *Recon 2.2*  genome wide model and the *HMRcore* core model (manually curated by our group). 
 By slecting *Custom* a different model can be improrted. In this case, the user must specify which identificative for genes the model vector model.genes uses. (This Gene ID can be the same of the dataset or a different one, in the latter case MaREA automatically converts model genes IDs in dataset IDs.
 
 Once the model is loaded, once a text box a summary of the metabolic model chosen will appear in **Model**. 
