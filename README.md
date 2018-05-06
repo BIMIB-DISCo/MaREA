@@ -18,7 +18,7 @@ Once the dataset is correctly loaded the message "dataset loaded" appears (see s
 
 
 # Process Dataset
-Once the dataset is loaded, the user must specify the name of the column reporting the genes ID from the **Gene IDs col** drop-down listist.
+Once the dataset is loaded, the user must specify the name of the column reporting the genes ID from the **Gene IDs col** drop-down list.
 
 **Gene Identifier** allows to specify which kind of gene identifier is used in the dataset.
 
