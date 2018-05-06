@@ -26,7 +26,7 @@ The **First patient col** drop-down list is used to specify the first patient (o
 
 
 Push **Add dataset** to import the selected dataset in the app.
-A Summary of  imported datasets will be created and displayed in the *Datasets* text box (see screehsnot below).
+A Summary of  imported datasets will be created and displayed in the *Datasets* text box (see screensnot below).
 
 ![Alt text](https://raw.githubusercontent.com/BIMIB-DISCo/MaREA/master/Images/addDataset.png?raw=true "Title")
 
