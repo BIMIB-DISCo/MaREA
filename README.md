@@ -1,5 +1,5 @@
 # Run MaREA
-To run this tool simply add the directory <*MaREA-master*> in your Matlab path and digit MaREA in terminal.
+To run this MATLAB tool simply add the directory <*MaREA-master*> in your Matlab path and digit MaREA in MATLAB Command Windoq.
 
 # Load Dataset (browsing the file system)
 
